@@ -1,0 +1,87 @@
+body { 
+    background-color: black;
+    background-image: url(../images/SfondoSito.png); 
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position: center;
+}
+
+.button {
+    position: absolute;
+    cursor:pointer;
+    border:none;
+    width: 246px;
+    height: 171px;
+}
+
+.button:active {
+    position: relative;
+    top: -6px;
+}
+
+.button#fb {
+    position: absolute;
+    left: 40%;
+    top:20%;
+    background:url(../images/Facebook_little.png) no-repeat;
+    background-size: 100%;
+    clip: auto;
+}
+
+.button#fb:active {
+    top: 24.5%;
+    right: 47.5%;
+}
+
+.button#sc {
+    position: absolute;
+    top: 29%;
+    left: 3%;
+    background:url(../images/SoundCloud_little.png) no-repeat;
+    background-size: 100%;
+}
+
+.button#sc:active {
+    top: 29.5%;
+    left: 3.5%;
+}
+
+.button#gM {
+    position: absolute;
+    top: 55%;
+    left: 3%;
+    background:url(../images/gMail_little.png) no-repeat;
+    background-size: 100%;
+}
+
+.button#gM:active {
+    top: 55.5%;
+    left: 3.5%;
+}
+
+.button#yt {
+    position: absolute;
+    top: 29%;
+    right: 3%;
+    background:url(../images/YouTube_little.png) no-repeat;
+    background-size: 100%;
+}
+
+.button#yt:active {
+    top: 29.5%;
+    right: 3.5%;
+}
+
+.button#mk {
+    position: absolute;
+    top: 55%;
+    right: 1%;
+    background:url(../images/MyKingdom_little.png) no-repeat;
+    background-size: 100%;
+}
+
+.button#mk:active {
+    top: 55.5%;
+    right: 1.5%;
+}
